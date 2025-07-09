@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 5000;
 // CORS configuration
 const corsOptions = {
   origin: [
-    "http://localhost:5173", // Vite default port
-    "https://connect-api-onw5.vercel.app", // Deployed version
+    "http://localhost:5173", 
+    "https://connect-api-onw5.vercel.app", 
   ],
   credentials: true,
   optionsSuccessStatus: 200,
